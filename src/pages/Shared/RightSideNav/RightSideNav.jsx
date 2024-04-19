@@ -1,7 +1,7 @@
 const RightSideNav = () => {
   return (
     <div>
-      <h2 className="text-2xl">Right Side</h2>
+      <h2 className="text-2xl">Right Side Nav</h2>
     </div>
   );
 };
