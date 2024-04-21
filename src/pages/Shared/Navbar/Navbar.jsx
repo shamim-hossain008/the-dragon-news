@@ -7,9 +7,7 @@ const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
 
   const handleSignOut = () => {
-    logOut()
-    .then()
-    .catch()
+    logOut().then().catch();
   };
 
   const navLinks = (
@@ -30,7 +28,6 @@ const Navbar = () => {
   );
   return (
     <div>
-      <h3 className="text-2xl font-poppins">Navbar</h3>
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">

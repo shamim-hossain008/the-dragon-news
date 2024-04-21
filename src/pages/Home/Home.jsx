@@ -19,7 +19,9 @@ const Home = () => {
           <LeftSideNav></LeftSideNav>
         </div>
         {/* News container */}
+
         <div className="md:col-span-2 border">
+          <h2 className="p-4 text-2xl">Dragon News Home</h2>
           {newsData.map((news) => (
             <NewsCard aNews={news} key={news._id}></NewsCard>
           ))}
